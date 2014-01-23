@@ -1,6 +1,6 @@
 //Maya ASCII 2014 scene
-//Name: bodymockupv1.ma
-//Last modified: Thu, Jan 23, 2014 09:07:03 AM
+//Name: Milestone1Herolongman.ma
+//Last modified: Thu, Jan 23, 2014 09:08:49 AM
 //Codeset: UTF-8
 requires maya "2014";
 currentUnit -l centimeter -a degree -t film;
@@ -1144,4 +1144,4 @@ connectAttr "pCubeShape1.wm" "polySplitRing16.mp";
 connectAttr "polyExtrudeFace11.out" "polyTweak26.ip";
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of bodymockupv1.ma
+// End of Milestone1Herolongman.ma

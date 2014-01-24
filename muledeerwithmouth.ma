@@ -1,6 +1,6 @@
 //Maya ASCII 2014 scene
 //Name: muledeerwithmouth.ma
-//Last modified: Wed, Jan 22, 2014 09:38:34 AM
+//Last modified: Fri, Jan 24, 2014 09:38:29 AM
 //Codeset: UTF-8
 requires maya "2014";
 currentUnit -l centimeter -a degree -t film;
@@ -12,15 +12,15 @@ fileInfo "osv" "Mac OS X 10.9.1";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.515332640301883 2.8956171486041797 13.422039321983608 ;
-	setAttr ".r" -type "double3" 13.461647272517665 1.7999999999970904 2.4860350531207588e-17 ;
+	setAttr ".t" -type "double3" 12.450492958428192 5.974692486592744 19.918897519378191 ;
+	setAttr ".r" -type "double3" -0.33835272748545098 37.399999999998386 0 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-15 0 -1.7763568394002505e-15 ;
 	setAttr ".rpt" -type "double3" -1.7714851396757679e-15 1.7524409635365355e-16 -2.0355747874179028e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 12.62717940329404;
+	setAttr ".coi" 23.629204836797356;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -122,7 +122,7 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".dcc" -type "string" "Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 453 ".pt";
+	setAttr -s 383 ".pt";
 	setAttr ".pt[82]" -type "float3" 1.1920929e-07 4.7683716e-07 0 ;
 	setAttr ".pt[83]" -type "float3" -5.9604645e-08 4.7683716e-07 0 ;
 	setAttr ".pt[84]" -type "float3" 0 4.7683716e-07 0 ;
